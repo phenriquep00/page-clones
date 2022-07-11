@@ -1,12 +1,14 @@
 import { Route, Routes } from "react-router-dom";
 import { Google } from "./pages/clones/Google/Google";
+import { HomePage } from "./pages/HomePage";
 
 
 export function Router() {
     return (
         <Routes>
-            <Route path="/" element={<h1>Home</h1>}/>
-            <Route path="/teste" element={<h1>Teste</h1>}/>
+            <Route path="/" element={<HomePage />}/>
+
+            {/* clone routes */}
             <Route path="/clones/google" element={<Google />}/>
         </Routes>
     )
