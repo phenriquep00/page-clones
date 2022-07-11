@@ -1,7 +1,12 @@
-export function App() {
+import { BrowserRouter } from "react-router-dom"
+import { Router } from "./Router"
+
+function App() {
   return (
-    <div className="bg-black w-full h-full">
-      TESTE
-    </div>
+    <BrowserRouter >
+      <Router />
+    </BrowserRouter>
   )
 }
+
+export default App
