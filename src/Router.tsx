@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import { Google } from "./pages/clones/Google/Google";
+import { NetflixProfilePage } from "./pages/clones/Netflix/NetflixProfilePage";
 import { HomePage } from "./pages/HomePage";
 
 
@@ -9,7 +9,7 @@ export function Router() {
             <Route path="/" element={<HomePage />}/>
 
             {/* clone routes */}
-            <Route path="/clones/google" element={<Google />}/>
+            <Route path="/clones/netflix-profile-page" element={<NetflixProfilePage />}/>
         </Routes>
     )
 }
