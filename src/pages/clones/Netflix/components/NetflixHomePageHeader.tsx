@@ -27,8 +27,8 @@ export function NetflixHomePageHeader() {
                     <Bell size={20} weight='fill' />
                 </div>
 
-                <div className="flex flex-row gap-[10px]">
-                    <img src={black_white} alt="black and white squares" className="pr-[10px]" />
+                <div className="flex flex-row gap-3">
+                    <img src={black_white} alt="black and white squares" className="pr-3" />
                     <CaretDown size={20} color="#ffffff" weight="fill" />
                 </div>
 
