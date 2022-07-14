@@ -2,6 +2,7 @@ import { Bell, CaretDown, Gift, MagnifyingGlass } from "phosphor-react";
 import black_white from '../assets/black_white.png'
 
 export function NetflixHomePageHeader() {
+
     return (
         <header className="flex h-20 w-full align-middle items-center px-14 flex-row justify-between">
             <div className="flex flex-row gap-12"> {/* HeaderLeft */}

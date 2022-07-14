@@ -3,10 +3,10 @@ import { NetflixProfileCards } from "./components/NetflixProfileCards";
 import profile1 from './assets/profile1.png'
 import profile2 from './assets/profile2.png'
 import profile3 from './assets/profile3.png'
-import { PlusCircle } from "phosphor-react";
-
 
 export function NetflixProfilePage() {
+
+
     return (
         <div className="bg-[#141414] h-[100vh] flex flex-col">
             <header className="flex h-[67px] w-full align-middle items-center pl-14">
@@ -18,7 +18,7 @@ export function NetflixProfilePage() {
             <div className="flex flex-1 flex-col items-center align-middle justify-center">
                 <h1 className="text-white text-6xl">Who's watching?</h1>
                 <div className="w-10/12 h-1/2 flex flex-row gap-[50px] items-center justify-center">
-                    <NetflixProfileCards image={profile1} username='pedro' />
+                    <NetflixProfileCards image={profile1} username='pedro'/>
                     <NetflixProfileCards image={profile2} username='ordep' />
                     <NetflixProfileCards image={profile3} username='roedo' />
                     <NetflixProfileCards image={profile1} username='oepdr' />

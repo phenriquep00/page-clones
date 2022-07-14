@@ -11,7 +11,7 @@ export function Router() {
 
             {/* clone routes */}
             <Route path="/clones/netflix-profile-page" element={<NetflixProfilePage />}/>
-            <Route path="/clones/netflix-home" element={<NetflixHomePage />}/>
+            <Route path="/clones/netflix-home" element={<NetflixHomePage username="pedro"/>}/>
         </Routes>
     )
 }
