@@ -1,3 +1,4 @@
+import { NetflixHomePageContent } from "./components/NetflixHomePageContent";
 import { NetflixHomePageFooter } from "./components/NetflixHomePageFooter";
 import { NetflixHomePageHeader } from "./components/NetflixHomePageHeader";
 
@@ -9,7 +10,7 @@ export function NetflixHomePage(props: NetflixHomePageProps) {
     return (
         <div className="bg-[#141414] h-[100vh] w-full flex flex-col">
             <NetflixHomePageHeader />
-            Home
+            <NetflixHomePageContent />
             <NetflixHomePageFooter />
         </div>
     )
