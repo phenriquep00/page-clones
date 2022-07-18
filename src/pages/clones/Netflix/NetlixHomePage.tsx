@@ -8,7 +8,7 @@ interface NetflixHomePageProps {
 
 export function NetflixHomePage(props: NetflixHomePageProps) {
     return (
-        <div className="bg-[#141414] h-[100vh] w-full flex flex-col">
+        <div className="bg-[#141414] h-auto w-full flex flex-col">
             <NetflixHomePageHeader />
             <NetflixHomePageContent />
             <NetflixHomePageFooter />
