@@ -44,22 +44,22 @@ export function NetflixContentCarousel(props: NetflixContentCarouselProps) {
                     props.carouselType === 'standard'
                         ?
                         (
-                            <div className="absolute z-40 bg-black w-[256px] h-[162px] rounded-sm bg-opacity-50 right-0 flex hover:opacity-0 cursor-pointer">
-                                <CaretRight size={32} color="#ffffff" className="self-center ml-52" />
+                            <div className="absolute z-40 bg-black md:w-[256px] h-[162px] w-16 rounded-sm bg-opacity-50 right-0 flex hover:opacity-0 cursor-pointer">
+                                <CaretRight size={32} color="#ffffff" className="self-center md:ml-52 ml-6" />
                             </div>
                         )
                         :
                         props.carouselType === 'vertical'
                             ?
                             (
-                                <div className="absolute z-40 bg-black w-[256px] h-[575px] rounded-sm bg-opacity-50 right-0 flex hover:opacity-0 cursor-pointer">
-                                    <CaretRight size={32} color="#ffffff" className="self-center ml-52" />
+                                <div className="absolute z-40 bg-black md:w-[256px] h-[575px] w-16 h- rounded-sm bg-opacity-50 right-0 flex hover:opacity-0 cursor-pointer">
+                                    <CaretRight size={32} color="#ffffff" className="self-center md:ml-52 ml-6" />
                                 </div>
                             )
                             :
                             (
-                                <div className="absolute z-40 bg-black w-[256px] h-[205px] rounded-sm bg-opacity-50 right-0 flex hover:opacity-0 cursor-pointer">
-                                    <CaretRight size={32} color="#ffffff" className="self-center ml-52" />
+                                <div className="absolute z-40 bg-black md:w-[256px] h-[205px] w-16 rounded-sm bg-opacity-50 right-0 flex hover:opacity-0 cursor-pointer">
+                                    <CaretRight size={32} color="#ffffff" className="self-center md:ml-52 ml-6" />
                                 </div>
                             )
                 }
