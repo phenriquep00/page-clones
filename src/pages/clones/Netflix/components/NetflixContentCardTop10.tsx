@@ -13,11 +13,10 @@ interface NetflixContentCardTop10Props {
 
 export function NetflixContentCardTop10(props: NetflixContentCardTop10Props) {
 
-    const ranks = Array.from({ length: 5 }, (_, i) => i + 1)
-    const ranks_ = [image1, image2, image3, image4, image5]
+    
 
     return (
-        <div className='w-[285px] h-[205px] flex flex-row'>
+        <div className='w-[285px] h-[205px] flex flex-row hover:cursor-pointer hover:w-[300px] hover:h-[235px] transition-all'>
             <div className="flex items-end w-1/2 h-full align-middle">
                 {
                     props.rank == '0'

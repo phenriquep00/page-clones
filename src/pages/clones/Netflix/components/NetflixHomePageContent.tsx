@@ -3,6 +3,7 @@ import { NetflixContentCarousel } from "./NetflixContentCarousel";
 import testImage from '../assets/testImage.png'
 import testImage2 from '../assets/testimage2.png'
 import testImage3 from '../assets/testimage3.png'
+import { NetflixHighlightedContent } from "./NetflixHighlightedContent";
 
 export function NetflixHomePageContent() {
 
@@ -12,7 +13,7 @@ export function NetflixHomePageContent() {
 
     return (
         <div className="w-full h-auto">
-            highlighted movie/series
+            <NetflixHighlightedContent />
             <NetflixContentCarousel carouselType="standard" category="Popular" images={testArrayStandard} />
             <NetflixContentCarousel carouselType="standard" category="Popular" images={testArrayStandard} />
             <NetflixContentCarousel carouselType="standard" category="Popular" images={testArrayStandard} />
