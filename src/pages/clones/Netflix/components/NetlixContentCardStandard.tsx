@@ -1,9 +1,9 @@
-interface NetflixContentCardProps {
+interface NetflixContentCardStandardProps {
     image: string;
 }
 
 
-export function NetflixContentCard(props: NetflixContentCardProps) {
+export function NetflixContentCardStandard(props: NetflixContentCardStandardProps) {
     return (
         <div className='w-[285px] h-[171px]'>
             <img

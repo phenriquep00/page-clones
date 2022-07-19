@@ -1,19 +1,25 @@
 import { NetflixContentCarousel } from "./NetflixContentCarousel";
 
 import testImage from '../assets/testImage.png'
+import testImage2 from '../assets/testimage2.png'
+import testImage3 from '../assets/testimage3.png'
 
 export function NetflixHomePageContent() {
 
-    const testArray = [testImage, testImage, testImage, testImage, testImage, testImage, testImage, testImage]
+    const testArrayStandard = [testImage, testImage, testImage, testImage, testImage, testImage, testImage, testImage]
+    const testArrayVertical = [testImage2, testImage2, testImage2, testImage2, testImage2, testImage2, testImage2,]
+    const testArrayTop10 = [testImage3, testImage3, testImage3, testImage3, testImage3, ]
 
     return (
         <div className="w-full h-auto">
             highlighted movie/series
-            <NetflixContentCarousel category="Popular" images={testArray}/>
-            <NetflixContentCarousel category="Popular" images={testArray}/>
-            <NetflixContentCarousel category="Popular" images={testArray}/>
-            <NetflixContentCarousel category="Popular" images={testArray}/>
-            <NetflixContentCarousel category="Popular" images={testArray}/>
+            <NetflixContentCarousel carouselType="standard" category="Popular" images={testArrayStandard} />
+            <NetflixContentCarousel carouselType="standard" category="Popular" images={testArrayStandard} />
+            <NetflixContentCarousel carouselType="standard" category="Popular" images={testArrayStandard} />
+            <NetflixContentCarousel carouselType="vertical" category="Popular" images={testArrayVertical} />
+            <NetflixContentCarousel carouselType="top10" category="Popular" images={testArrayTop10} />
+            <NetflixContentCarousel carouselType="standard" category="Popular" images={testArrayStandard} />
+            <NetflixContentCarousel carouselType="standard" category="Popular" images={testArrayStandard} />
         </div>
     )
 }
