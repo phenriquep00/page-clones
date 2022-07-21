@@ -15,8 +15,8 @@ export function HomePage() {
                 <Showcase>
                     <h2>Cloned pages</h2>
                     <div className="flex flex-row gap-5 p-5">
-                        <CloneCard name="Netflix" path="./clones/netflix-profile-page"/>
-                        <CloneCard name="Wordle" path="./clones/wordle"/>
+                        <CloneCard name="Netflix" path="./clones/netflix-profile-page" img=""/>
+                        <CloneCard name="Wordle" path="./clones/wordle" img=""/>
                     </div>
                 </Showcase>
 
