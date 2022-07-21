@@ -1,3 +1,4 @@
+import { WordleHeardButtons } from "./components/WordleHeaderButtons";
 import { WordleTitle } from "./components/WordleTitle";
 
 export function WordlePage() {
@@ -5,6 +6,7 @@ export function WordlePage() {
         <div className="w-screen h-screen flex flex-col items-center my-[5px]">
             <header>
                 <WordleTitle />
+                <WordleHeardButtons />
             </header>
             
         </div>
