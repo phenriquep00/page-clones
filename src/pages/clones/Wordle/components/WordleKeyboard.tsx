@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Keyboard from 'react-simple-keyboard';
 import 'react-simple-keyboard/build/css/index.css';
 
+// TODO: create own keyboard
+
 class WordleKeyboard extends Component {
     onChange = (input: any) => {
         console.log("Input changed", input);
@@ -23,7 +25,7 @@ class WordleKeyboard extends Component {
                         '{bksp} z x c v b n m {enter}'
                     ]
                 }}
-                theme=""
+                theme="hg-theme-default"
             />
         );
     }
