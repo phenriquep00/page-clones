@@ -1,7 +1,7 @@
-import KeyboardReact from "react-simple-keyboard";
 import { WordleGrid } from "./components/WordleGrid";
 import { WordleHeardButtons } from "./components/WordleHeaderButtons";
-import WordleKeyboard from "./components/WordleKeyboard";
+import { WordleKeyboard } from "./components/WordleKeyboard";
+
 import { WordleTitle } from "./components/WordleTitle";
 
 export function WordlePage() {
